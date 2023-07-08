@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 200px;
+    background-color: #191a2b;
+    position: relative;
+    border: 5px solid #189BFF;
+}
+/* 
+.ctn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    font-size: 100px;
+    position: relative;
+}
+.btnContainer {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainCtn {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+.parentContainer{
+    height: 300px;
+    width: 100%;
+}
+.wave{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.recoder{
+    position: absolute;
+
+}

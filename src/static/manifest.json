@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Automator",
+    "description": "Extension That Automates the accesibility of chrome to disable peoples",
+    "version": "1.0.0",
+    "host_permissions": [
+        "*://*/*",
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_title": "Click Me",
+        "default_popup": "index.html"
+    },
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "permissions": [
+        "sessions",
+        "storage",
+        "activeTab",
+        "tabs",
+        "bookmarks",
+        "scripting",
+        "sidePanel"
+    ]
+}
