@@ -20,6 +20,7 @@
     "@mui/material": "^5.13.6",
     "annyang": "^2.6.1",
     "lodash.debounce": "^4.0.8",
+    "openai": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-speech-to-text": "^0.8.0",

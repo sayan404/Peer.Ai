@@ -1,50 +1,65 @@
 body {
     margin: 0;
     padding: 0;
-    height: 300px;
-    width: 200px;
-    background-color: #191a2b;
+    height: 350px;
+    width: 300px;
     position: relative;
-    border: 5px solid #189BFF;
+    background-color: rgb(193, 193, 239);
 }
-/* 
-.ctn {
+
+.chatSection {
+    height: 60px;
+    width: 80%;
+    /* background-color: red; */
+    margin: 5px auto;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.342);
+    backdrop-filter: blur(40px);
+}
+
+.response {
+    height: 90px;
+    width: 80%;
+    margin: 0px auto;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.342);
+    backdrop-filter: blur(40px);
+
+}
+
+.chatresponse {
+    padding: 10px 2px;
+}
+
+.wraper {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
     justify-content: center;
-    height: 100px;
-    width: 100px;
-    font-size: 100px;
+    align-items: center;
+}
+
+.parentContainer {
+    height: 100%;
+    width: 100%;
     position: relative;
 }
-.btnContainer {
-    position: relative;
-    height: 50px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+button {
+    position: absolute;
 }
-.mainCtn {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
-.parentContainer{
-    height: 300px;
+
+.wave {
+    position: fixed;
+    height: 100%;
     width: 100%;
 }
-.wave{
-    position: relative;
-    height: 300px;
-    width: 100%;
-}
-.recoder{
+
+.recoder {
     position: absolute;
 
 }

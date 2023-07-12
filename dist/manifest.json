@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Chrome Automator",
-    "description": "Extension That Automates the accesibility of chrome to disable peoples",
+    "name": "Peer.Ai",
+    "description": "Extension That Automates the Accesibility of Chrome via Voice Search",
     "version": "1.0.0",
     "host_permissions": [
         "*://*/*",
@@ -40,5 +40,16 @@
         "bookmarks",
         "scripting",
         "sidePanel"
-    ]
+    ],
+
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Q",
+            "mac": "Command+Shift+Q",
+            "chromeos": "Ctrl+Shift+U",
+            "linux": "Ctrl+Shift+J"
+          }
+        }
+      }
 }
