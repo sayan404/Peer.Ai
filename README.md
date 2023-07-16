@@ -32,7 +32,7 @@ https://peer-ai-web.vercel.app/
 ## Installation 
 1. Open the Chrome web browser.
 2. clone the repo to your local system
-3. run the command in the terminal of your local system to clone the repo - git clone git@github.com:sd012gfhkhhvh/Peer.AI.git
+3. run the command in the terminal of your local system to clone the repo - git clone git@github.com:sayan404/Peer.AI.git
 4. run npm i command to install all the dependencies
 5. open chrome -> Extention manager -> activate developer mode
 6. Click Load unpacked and navigate to the download directory
