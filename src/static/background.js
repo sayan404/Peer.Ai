@@ -1,6 +1,6 @@
 // for search anything by opening a new tab
 let payloadData = "", message = "", tabId = 0, originalPayloadData = ""
-const apiKey = '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'
+const apiKey = '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'
 const listOfActivetedTab = new Array
 const bookmarksArray = []
 const listOfActivetedTabsWithAllDetails = []
