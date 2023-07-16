@@ -1,6 +1,11 @@
 # Peer.AI - Empower Your Browsing Experience with Voice Navigation, Q&A, and Compression!
 
 Peer.AI is a game-changing Chrome extension that revolutionizes how you interact with the web. Effortlessly manage tabs and bookmarks using voice commands, freeing up your hands and making browsing tasks more efficient. With voice search, find information faster than ever before, eliminating the need for typing. Engage in interactive Q&A sessions with our intelligent ChatGPT, getting instant answers to your queries. Additionally, enjoy the convenience of requesting compressed and summarized web pages in a speak-louder mode. VoiceWave transforms your Chrome experience, making it easier, safer, and more accessible.
+
+## Logo
+<p align="center" >
+  <img src="./src/static/logo.png" width="150"/>
+</p>
 ## Features
 
 - **Voice Navigation:**: Seamlessly navigate through tabs and bookmarks using intuitive voice commands.
@@ -24,8 +29,10 @@ Peer.AI is a game-changing Chrome extension that revolutionizes how you interact
 - **User-Friendly Interface:** Enjoy a user-friendly interface that provides easy access to all the features and settings of the Peer.AI extension.
 
 By incorporating these features, Peer.AI aims to revolutionize your browsing experience by offering convenient voice-based navigation, efficient search and information retrieval, interactive conversations, and enhanced accessibility, all in one powerful Chrome extension.
-
-
+## Demo
+<p align="center">
+  <img src="./src/assets/demo.gif" />
+</p>
 ## Website
 https://peer-ai-web.vercel.app/
 
