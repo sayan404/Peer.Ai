@@ -1,6 +1,6 @@
 // for search anything by opening a new tab
 let payloadData = "", message = "", tabId = 0, originalPayloadData = ""
-const apiKey = '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'
+const apiKey = 'YOUR_GPT_API_KEY'
 const listOfActivetedTab = new Array
 const bookmarksArray = []
 const listOfActivetedTabsWithAllDetails = []
