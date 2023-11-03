@@ -108,10 +108,10 @@ const Popup = () => {
       // console.log(results);
       // console.log(modeActivation);
       // console.log(modeActivationAcualData);
-      if (modeActivation.includes("activatechatmode")) {
+      if (modeActivation.includes("activatechat")) {
         setDetectMode(true);
         // console.log(detectMode);
-      } else if (modeActivation.includes("deactivatechatmode")) {
+      } else if (modeActivation.includes("deactivatechat")) {
         setDetectMode(false);
         refreshPage();
         // console.log(detectMode);
