@@ -38,16 +38,16 @@ By incorporating these features, Peer.AI aims to revolutionize your browsing exp
 https://peer-ai-web.vercel.app/
 
 ## Installation 
-1. Open the Chrome web browser.
-2. clone the repo to your local system
-3. run the command in the terminal of your local system to clone the repo - git clone git@github.com:sayan404/Peer.AI.git
-4. run npm i command to install all the dependencies
-5. go to src > static > background.js and in the apiKey variable put your own GPT APT KEY within the "".
-6. open chrome -> Extention manager -> activate developer mode
-7. Click Load unpacked and navigate to the download directory
-8. upload the dist file
-9. Pin it
-10. Good to go.
+1. clone the repo to your local system
+2. run the command in the terminal of your local system to clone the repo:  git clone https://github.com/sayan404/Peer.Ai.git
+3. run `npm install` command to install all the dependencies
+4. go to `src > static > background.js` and in the apiKey variable put your own GPT APT KEY within the "".
+5. open chrome -> Extention manager -> activate developer mode
+6. Click Load unpacked and navigate to the download directory
+7. upload the dist file
+8. open All Extensions -> Click on `Details` button of Peer.Ai extension -> allow `sound` and  `microphone` permissions
+9. open the extension
+10. Good to go
 
 ## User Manual
 https://docs.google.com/document/d/1G9RbwXlzVBfP9EhXfa8g86L4aA3Xhe8vvdIymB6dg74/edit?usp=sharing
